@@ -1,0 +1,197 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #303030;
+}
+
+#about {   
+    padding: 50px 0;
+}
+
+p, #about ul {  
+    font-size: 1.8em;
+}
+
+.jumbotron {
+    height: 100vh;
+    background-image: url("http://i.imgur.com/YfnxtUE.jpg");  
+    background-attachment: fixed;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+#about, .jumbotron, .project-info, .btn a {
+    color: #fff;
+}
+
+.jumbotron, .projects a, .project-info {
+    background-color: #000;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;    
+}
+
+#name {
+    font-size: 6em;
+    letter-spacing: 2px;
+}
+
+#title {
+    font-size: 2.2em;
+    letter-spacing: 10px;
+    margin-left: 12px;
+}
+
+#title, .project-info {
+    text-transform: uppercase;
+}
+
+.projects {
+    background-color: #fff;
+}
+
+.projects a {
+    height: 18em;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: .9;
+    transition: opacity .2s;
+}
+
+.projects a:hover {
+    opacity: 1;
+}
+
+.projects .col-xs-12, .projects .col-md-4 {
+    padding-left: 0;
+} 
+
+.project-info {
+    position: absolute;
+    bottom: 0;
+    padding-left: 10px;
+    opacity: .8;
+    width: 100%;
+}
+
+#wiki {
+    background-image: url("http://i.imgur.com/i9XfI2G.png");
+    background-position: 50% 48%;
+}
+
+#tic-tac-toe {
+    background-image: url("http://i.imgur.com/r4ewx0C.png");
+    background-position: 50% 10%;
+}
+
+#weather {
+    background-image: url("http://i.imgur.com/SI5HDnu.png");
+    background-position: 50% 55%;
+}
+
+#pomodoro {
+    background-image: url("http://i.imgur.com/ngqrTdY.png");
+}
+
+#calculator {
+    background-image: url("http://i.imgur.com/DiQIxMK.png");
+}
+
+#quotes {
+    background-image: url("http://i.imgur.com/JNBumnW.png");
+    background-position: 50% 25%;
+}
+
+#simon {
+    background-image: url("http://i.imgur.com/EPEFbu7.png");
+    background-position: 50% 40%;
+}
+
+#twitch {
+    background-image: url("http://i.imgur.com/A4dISOx.png");
+    background-position: 25% 50%;
+}
+
+#tribute {
+    background-image: url("http://i.imgur.com/Z699rs5.png");
+}
+
+ul.list-unstyled li {
+    display: inline;
+}
+
+.btn {
+    background: none;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+
+.btn a {
+    transition: color .15s;
+}
+
+.btn a:hover {
+    color: #ccc;
+}
+
+.btn a:focus {
+    color: #a6a6a6;
+}
+
+/* fix iOS bug not displaying 100vh correctly */
+/* ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .jumbotron {
+        height: 768px;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .jumbotron {
+        height: 1024px;
+    }
+}
+/* iphone6 Plus */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+    .jumbotron {
+        height: 414px;
+    }
+}
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+    .jumbotron {
+        height: 736px;
+    }
+}
+/* iphone6 */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+    .jumbotron {
+        height: 375px;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+    .jumbotron {
+        height: 667px;
+    }
+}
+/* iphone5 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+    .jumbotron {
+        height: 320px;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+    .jumbotron {
+        height: 568px;
+    }
+}
+/* iPhone 4 */
+@media only screen and (min-device-width : 320px) and (max-device-height : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    .jumbotron {
+        height: 320px;
+    }
+}
+@media only screen and (min-device-width : 320px) and (max-device-height : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    .jumbotron {
+        height: 480px;
+    }
+}
