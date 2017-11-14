@@ -75,6 +75,36 @@ h1 {
     width: 100%;
 }
 
+#contiguity {
+    background-image: url("https://i.imgur.com/wlqO7tp.jpg");
+    background-position: 50% 75%;
+}
+
+#rogue {
+    background-image: url("https://i.imgur.com/u464hLf.jpg");
+    background-position: 50% 75%;
+}
+
+#meteorite {
+    background-image: url("https://i.imgur.com/a1zEPUN.jpg");
+    background-position: 50% 20%;
+}
+
+#markdown {
+    background-image: url("https://i.imgur.com/31nlEEg.jpg");
+    background-position: 25% 25%;
+}
+
+#life {
+    background-image: url("https://i.imgur.com/jRXtv9X.jpg");
+    background-position: 50% 40%;
+}
+
+#recipe {
+    background-image: url("https://i.imgur.com/dv7sYUQ.jpg");
+    background-position: 50% 50%;
+}
+
 #wiki {
     background-image: url("http://i.imgur.com/i9XfI2G.png");
     background-position: 50% 48%;
